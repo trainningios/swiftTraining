@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E653B44F2312E7810091898D /* PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B44E2312E7810091898D /* PM.swift */; };
+		E653B4512312E7BF0091898D /* DEV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4502312E7BF0091898D /* DEV.swift */; };
+		E653B4532312E7EB0091898D /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4522312E7EB0091898D /* Persion.swift */; };
 		E65CB9DE230FA5D60061878F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65CB9DD230FA5D60061878F /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E653B44E2312E7810091898D /* PM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM.swift; sourceTree = "<group>"; };
+		E653B4502312E7BF0091898D /* DEV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEV.swift; sourceTree = "<group>"; };
+		E653B4522312E7EB0091898D /* Persion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
 		E65CB9DA230FA5D60061878F /* OPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65CB9DD230FA5D60061878F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				E65CB9DD230FA5D60061878F /* main.swift */,
+				E653B44E2312E7810091898D /* PM.swift */,
+				E653B4502312E7BF0091898D /* DEV.swift */,
+				E653B4522312E7EB0091898D /* Persion.swift */,
 			);
 			path = OPP;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E653B4532312E7EB0091898D /* Persion.swift in Sources */,
+				E653B4512312E7BF0091898D /* DEV.swift in Sources */,
+				E653B44F2312E7810091898D /* PM.swift in Sources */,
 				E65CB9DE230FA5D60061878F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
