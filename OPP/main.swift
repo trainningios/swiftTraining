@@ -23,7 +23,6 @@ var an = DEV(name: "An", birth: "22/04/1995", role: "DEV")
 listDEV.append(ton)
 listDEV.append(tan)
 listDEV.append(bang)
-listDEV.append(bang)
 listDEV.append(minh)
 listDEV.append(nhan)
 listDEV.append(tam)
@@ -58,7 +57,7 @@ print("all number task asign for dev: \(allTask)")
 
 //5. delete all dev not assigned tasks
 var index = 0
-while (index <= listDEV.count) {
+while (index <= listDEV.count + 1) {
     if let index = listDEV.index(where: {$0.numberTask == 0}) {
         listDEV.remove(at: index)
     }
@@ -69,4 +68,3 @@ for index in 0...listDEV.count - 1{
     let dev: DEV = listDEV[index]
     print("\(dev.name!): \(dev.numberTask)")
 }
-
