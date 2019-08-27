@@ -8,9 +8,9 @@
 
 import Foundation
 class Persion: NSObject{
-    var name:String?
-    var birth: String?   // format 22/04/1995
-    var role: String?
+    private (set) var name:String?
+    private (set) var birth: String?   // format 22/04/1995
+    private (set) var role: String?
     
     init(name: String, birth: String, role: String) {
         self.name = name
