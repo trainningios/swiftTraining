@@ -15,7 +15,7 @@ class DEV: Persion {
     
     // get info 22-4-1995
     override func getInfo() -> String {
-        let styleDate = "dd-mm-yyyy"
+        let styleDate = "yyyy-mm-dd"
         return "Name: \(name!), birth: \(formatDate(dateTime: birth!, styleDate: styleDate)), role: \(role!)"
     }
     
