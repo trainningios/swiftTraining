@@ -19,7 +19,7 @@ class PM: Persion {
     }
     
     func asignTask(dev: DEV) -> String {
-        dev.setNumberTask()
+        dev.updateNumberTask()
         return "\(name!) asign task for \(dev.name!)"
     }
     

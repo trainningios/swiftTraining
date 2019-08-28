@@ -8,7 +8,7 @@
 
 import Foundation
 class DEV: Persion {
-    var numberTask: Int = 0
+     private (set) var numberTask: Int = 0
     override init(name: String, birth: String, role: String) {
         super.init(name: name, birth: birth, role: role)
     }
@@ -23,7 +23,7 @@ class DEV: Persion {
         return "\(name!) report for \(pm.name!)"
     }
     
-    func setNumberTask(){
+    func updateNumberTask(){
         numberTask += 1
     }
     
