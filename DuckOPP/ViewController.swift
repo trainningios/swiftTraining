@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblQuack: UILabel!
     
-    var mallrad = Mallrad()
-    var mode = Mode()
+    let mallrad = Mallrad()
+    let robot = RobotDuck()
     
     
     @IBAction func btnQuack(_ sender: Any) {
@@ -25,22 +25,21 @@ class ViewController: UIViewController {
     
     
     @IBAction func btnQuackRobot(_ sender: Any) {
-        let robot = RobotDuck(mode: mode)
         lblQuackRobot.text = robot.quack()
     }
     
     
     @IBAction func btnVN(_ sender: Any) {
-        mode.selectLanguage(language: "VN")
+        robot.selectVN()
     }
     
     
     @IBAction func btnEN(_ sender: Any) {
-        mode.selectLanguage(language: "EN")
+        robot.selectEN()
     }
     
     @IBAction func btnJP(_ sender: Any) {
-        mode.selectLanguage(language: "JP")
+        robot.selectJP()
     }
     
     

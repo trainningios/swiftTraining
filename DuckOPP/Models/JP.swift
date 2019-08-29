@@ -8,9 +8,8 @@
 //
 
 import Foundation
-class JP: NSObject {
-    var language: String
-    init(language: String) {
-        self.language = language
+class JP: Mode {
+    override func message() -> String {
+        return "Kimochi"
     }
 }

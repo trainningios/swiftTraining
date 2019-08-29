@@ -8,14 +8,23 @@
 
 import Foundation
 class RobotDuck: Duck, CanMakeAct, CanMakeActivity{
-    var mode: Mode
+    var mode = Mode()
     
-    init(mode: Mode) {
-        self.mode = mode
-    }
     
     func move() {
         
+    }
+    
+    func selectVN(){
+        mode = VN()
+    }
+    
+    func selectEN(){
+        mode = EN()
+    }
+    
+    func selectJP(){
+        mode = JP()
     }
 
     func quack() -> String {

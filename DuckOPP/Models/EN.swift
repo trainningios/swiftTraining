@@ -7,10 +7,9 @@
 //
 
 import Foundation
-class EN: NSObject {
-    var language: String
-    init(language: String) {
-        self.language = language
+class EN: Mode {
+   
+    override func message() -> String {
+        return "meo meo"
     }
-    
 }

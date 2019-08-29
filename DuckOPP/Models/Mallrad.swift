@@ -19,7 +19,7 @@ class Mallrad: Duck, CanMakeAct, CanMakeActivity, CanMakeFly{
     
     func quack() -> String{
         let message = "Cac cac"
-        return "\(message)"
+        return message
     }
     
     func swim() {

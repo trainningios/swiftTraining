@@ -7,9 +7,8 @@
 //
 
 import Foundation
-class VN: NSObject {
-    var laguage: String
-     init(language: String) {
-        self.laguage = language
+class VN: Mode {
+    override func message() -> String {
+        return "go go"
     }
 }
