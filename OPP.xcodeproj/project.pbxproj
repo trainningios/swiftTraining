@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E653B44F2312E7810091898D /* PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B44E2312E7810091898D /* PM.swift */; };
-		E653B4512312E7BF0091898D /* DEV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4502312E7BF0091898D /* DEV.swift */; };
-		E653B4532312E7EB0091898D /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4522312E7EB0091898D /* Persion.swift */; };
 		E65CB9DE230FA5D60061878F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65CB9DD230FA5D60061878F /* main.swift */; };
+		E67AF24923166C40004EAE65 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF24823166C40004EAE65 /* Duck.swift */; };
+		E67AF24B23166C72004EAE65 /* Duck1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF24A23166C72004EAE65 /* Duck1.swift */; };
+		E67AF24D23166C94004EAE65 /* Mallrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF24C23166C94004EAE65 /* Mallrad.swift */; };
+		E67AF24F23166CC4004EAE65 /* RebberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF24E23166CC4004EAE65 /* RebberDuck.swift */; };
+		E67AF25123166CE9004EAE65 /* RobotDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25023166CE9004EAE65 /* RobotDuck.swift */; };
+		E67AF25323166D38004EAE65 /* CanMakeAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25223166D38004EAE65 /* CanMakeAct.swift */; };
+		E67AF25523166D6D004EAE65 /* CanMakeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25423166D6D004EAE65 /* CanMakeActivity.swift */; };
+		E67AF25723166DE4004EAE65 /* CanMakeFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25623166DE4004EAE65 /* CanMakeFly.swift */; };
+		E67AF25923166ED9004EAE65 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25823166ED9004EAE65 /* Mode.swift */; };
+		E67AF25B23166F70004EAE65 /* VN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25A23166F70004EAE65 /* VN.swift */; };
+		E67AF25D23166FC4004EAE65 /* EN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25C23166FC4004EAE65 /* EN.swift */; };
+		E67AF25F2316700A004EAE65 /* JP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AF25E2316700A004EAE65 /* JP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +35,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E653B44E2312E7810091898D /* PM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM.swift; sourceTree = "<group>"; };
-		E653B4502312E7BF0091898D /* DEV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEV.swift; sourceTree = "<group>"; };
-		E653B4522312E7EB0091898D /* Persion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
 		E65CB9DA230FA5D60061878F /* OPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65CB9DD230FA5D60061878F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E67AF24823166C40004EAE65 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		E67AF24A23166C72004EAE65 /* Duck1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck1.swift; sourceTree = "<group>"; };
+		E67AF24C23166C94004EAE65 /* Mallrad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mallrad.swift; sourceTree = "<group>"; };
+		E67AF24E23166CC4004EAE65 /* RebberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebberDuck.swift; sourceTree = "<group>"; };
+		E67AF25023166CE9004EAE65 /* RobotDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDuck.swift; sourceTree = "<group>"; };
+		E67AF25223166D38004EAE65 /* CanMakeAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanMakeAct.swift; sourceTree = "<group>"; };
+		E67AF25423166D6D004EAE65 /* CanMakeActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanMakeActivity.swift; sourceTree = "<group>"; };
+		E67AF25623166DE4004EAE65 /* CanMakeFly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanMakeFly.swift; sourceTree = "<group>"; };
+		E67AF25823166ED9004EAE65 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		E67AF25A23166F70004EAE65 /* VN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VN.swift; sourceTree = "<group>"; };
+		E67AF25C23166FC4004EAE65 /* EN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EN.swift; sourceTree = "<group>"; };
+		E67AF25E2316700A004EAE65 /* JP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +82,18 @@
 			isa = PBXGroup;
 			children = (
 				E65CB9DD230FA5D60061878F /* main.swift */,
-				E653B44E2312E7810091898D /* PM.swift */,
-				E653B4502312E7BF0091898D /* DEV.swift */,
-				E653B4522312E7EB0091898D /* Persion.swift */,
+				E67AF24823166C40004EAE65 /* Duck.swift */,
+				E67AF24A23166C72004EAE65 /* Duck1.swift */,
+				E67AF24C23166C94004EAE65 /* Mallrad.swift */,
+				E67AF24E23166CC4004EAE65 /* RebberDuck.swift */,
+				E67AF25023166CE9004EAE65 /* RobotDuck.swift */,
+				E67AF25223166D38004EAE65 /* CanMakeAct.swift */,
+				E67AF25423166D6D004EAE65 /* CanMakeActivity.swift */,
+				E67AF25623166DE4004EAE65 /* CanMakeFly.swift */,
+				E67AF25823166ED9004EAE65 /* Mode.swift */,
+				E67AF25A23166F70004EAE65 /* VN.swift */,
+				E67AF25C23166FC4004EAE65 /* EN.swift */,
+				E67AF25E2316700A004EAE65 /* JP.swift */,
 			);
 			path = OPP;
 			sourceTree = "<group>";
@@ -128,10 +155,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E653B4532312E7EB0091898D /* Persion.swift in Sources */,
-				E653B4512312E7BF0091898D /* DEV.swift in Sources */,
-				E653B44F2312E7810091898D /* PM.swift in Sources */,
+				E67AF25323166D38004EAE65 /* CanMakeAct.swift in Sources */,
+				E67AF25723166DE4004EAE65 /* CanMakeFly.swift in Sources */,
+				E67AF25F2316700A004EAE65 /* JP.swift in Sources */,
+				E67AF25D23166FC4004EAE65 /* EN.swift in Sources */,
+				E67AF24B23166C72004EAE65 /* Duck1.swift in Sources */,
+				E67AF24D23166C94004EAE65 /* Mallrad.swift in Sources */,
+				E67AF25B23166F70004EAE65 /* VN.swift in Sources */,
+				E67AF24923166C40004EAE65 /* Duck.swift in Sources */,
+				E67AF24F23166CC4004EAE65 /* RebberDuck.swift in Sources */,
+				E67AF25923166ED9004EAE65 /* Mode.swift in Sources */,
+				E67AF25523166D6D004EAE65 /* CanMakeActivity.swift in Sources */,
 				E65CB9DE230FA5D60061878F /* main.swift in Sources */,
+				E67AF25123166CE9004EAE65 /* RobotDuck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
