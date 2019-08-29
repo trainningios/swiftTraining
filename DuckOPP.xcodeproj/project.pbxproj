@@ -12,6 +12,18 @@
 		E62DD9BD2316DC3300150A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BB2316DC3300150A93 /* Main.storyboard */; };
 		E62DD9BF2316DC3400150A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BE2316DC3400150A93 /* Assets.xcassets */; };
 		E62DD9C22316DC3400150A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9C02316DC3400150A93 /* LaunchScreen.storyboard */; };
+		E62DD9D22316E26700150A93 /* RebberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CA2316E26600150A93 /* RebberDuck.swift */; };
+		E62DD9D32316E26700150A93 /* JP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CB2316E26600150A93 /* JP.swift */; };
+		E62DD9D42316E26700150A93 /* RobotDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CC2316E26600150A93 /* RobotDuck.swift */; };
+		E62DD9D52316E26700150A93 /* Duck1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CD2316E26600150A93 /* Duck1.swift */; };
+		E62DD9D62316E26700150A93 /* Mallrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CE2316E26600150A93 /* Mallrad.swift */; };
+		E62DD9D72316E26700150A93 /* VN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CF2316E26600150A93 /* VN.swift */; };
+		E62DD9D82316E26700150A93 /* EN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9D02316E26600150A93 /* EN.swift */; };
+		E62DD9D92316E26700150A93 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9D12316E26700150A93 /* Mode.swift */; };
+		E62DD9DB2316E2BA00150A93 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DA2316E2BA00150A93 /* Duck.swift */; };
+		E62DD9DF2316E2D800150A93 /* CanMakeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */; };
+		E62DD9E02316E2D800150A93 /* CanMakeAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */; };
+		E62DD9E12316E2D800150A93 /* CanMakeFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		E62DD9BE2316DC3400150A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62DD9C12316DC3400150A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62DD9C32316DC3400150A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62DD9CA2316E26600150A93 /* RebberDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebberDuck.swift; sourceTree = "<group>"; };
+		E62DD9CB2316E26600150A93 /* JP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JP.swift; sourceTree = "<group>"; };
+		E62DD9CC2316E26600150A93 /* RobotDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotDuck.swift; sourceTree = "<group>"; };
+		E62DD9CD2316E26600150A93 /* Duck1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck1.swift; sourceTree = "<group>"; };
+		E62DD9CE2316E26600150A93 /* Mallrad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mallrad.swift; sourceTree = "<group>"; };
+		E62DD9CF2316E26600150A93 /* VN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VN.swift; sourceTree = "<group>"; };
+		E62DD9D02316E26600150A93 /* EN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EN.swift; sourceTree = "<group>"; };
+		E62DD9D12316E26700150A93 /* Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		E62DD9DA2316E2BA00150A93 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeActivity.swift; sourceTree = "<group>"; };
+		E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeAct.swift; sourceTree = "<group>"; };
+		E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeFly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 		E62DD9B62316DC3300150A93 /* DuckOPP */ = {
 			isa = PBXGroup;
 			children = (
+				E62DD9C92316E1D600150A93 /* Models */,
 				E62DD9B72316DC3300150A93 /* AppDelegate.swift */,
 				E62DD9B92316DC3300150A93 /* ViewController.swift */,
 				E62DD9BB2316DC3300150A93 /* Main.storyboard */,
@@ -62,6 +87,25 @@
 				E62DD9C32316DC3400150A93 /* Info.plist */,
 			);
 			path = DuckOPP;
+			sourceTree = "<group>";
+		};
+		E62DD9C92316E1D600150A93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */,
+				E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */,
+				E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */,
+				E62DD9DA2316E2BA00150A93 /* Duck.swift */,
+				E62DD9CD2316E26600150A93 /* Duck1.swift */,
+				E62DD9D02316E26600150A93 /* EN.swift */,
+				E62DD9CB2316E26600150A93 /* JP.swift */,
+				E62DD9CE2316E26600150A93 /* Mallrad.swift */,
+				E62DD9D12316E26700150A93 /* Mode.swift */,
+				E62DD9CA2316E26600150A93 /* RebberDuck.swift */,
+				E62DD9CC2316E26600150A93 /* RobotDuck.swift */,
+				E62DD9CF2316E26600150A93 /* VN.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62DD9DB2316E2BA00150A93 /* Duck.swift in Sources */,
+				E62DD9D52316E26700150A93 /* Duck1.swift in Sources */,
+				E62DD9E02316E2D800150A93 /* CanMakeAct.swift in Sources */,
+				E62DD9D62316E26700150A93 /* Mallrad.swift in Sources */,
+				E62DD9D82316E26700150A93 /* EN.swift in Sources */,
 				E62DD9BA2316DC3300150A93 /* ViewController.swift in Sources */,
+				E62DD9DF2316E2D800150A93 /* CanMakeActivity.swift in Sources */,
+				E62DD9D32316E26700150A93 /* JP.swift in Sources */,
 				E62DD9B82316DC3300150A93 /* AppDelegate.swift in Sources */,
+				E62DD9D92316E26700150A93 /* Mode.swift in Sources */,
+				E62DD9E12316E2D800150A93 /* CanMakeFly.swift in Sources */,
+				E62DD9D22316E26700150A93 /* RebberDuck.swift in Sources */,
+				E62DD9D42316E26700150A93 /* RobotDuck.swift in Sources */,
+				E62DD9D72316E26700150A93 /* VN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DuckOPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinhvan.test.DuckOPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DuckOPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinhvan.test.DuckOPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
