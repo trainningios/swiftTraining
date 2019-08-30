@@ -12,18 +12,15 @@
 		E62DD9BD2316DC3300150A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BB2316DC3300150A93 /* Main.storyboard */; };
 		E62DD9BF2316DC3400150A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BE2316DC3400150A93 /* Assets.xcassets */; };
 		E62DD9C22316DC3400150A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9C02316DC3400150A93 /* LaunchScreen.storyboard */; };
-		E62DD9D22316E26700150A93 /* RebberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CA2316E26600150A93 /* RebberDuck.swift */; };
-		E62DD9D32316E26700150A93 /* JP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CB2316E26600150A93 /* JP.swift */; };
-		E62DD9D42316E26700150A93 /* RobotDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CC2316E26600150A93 /* RobotDuck.swift */; };
-		E62DD9D52316E26700150A93 /* Duck1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CD2316E26600150A93 /* Duck1.swift */; };
-		E62DD9D62316E26700150A93 /* Mallrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CE2316E26600150A93 /* Mallrad.swift */; };
-		E62DD9D72316E26700150A93 /* VN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9CF2316E26600150A93 /* VN.swift */; };
-		E62DD9D82316E26700150A93 /* EN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9D02316E26600150A93 /* EN.swift */; };
-		E62DD9D92316E26700150A93 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9D12316E26700150A93 /* Mode.swift */; };
-		E62DD9DB2316E2BA00150A93 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DA2316E2BA00150A93 /* Duck.swift */; };
-		E62DD9DF2316E2D800150A93 /* CanMakeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */; };
-		E62DD9E02316E2D800150A93 /* CanMakeAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */; };
-		E62DD9E12316E2D800150A93 /* CanMakeFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */; };
+		E6311E5F2317C7E6003D73BD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E5E2317C7E6003D73BD /* Car.swift */; };
+		E6311E612317C84C003D73BD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E602317C84C003D73BD /* Color.swift */; };
+		E6311E632317C8A3003D73BD /* Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E622317C8A3003D73BD /* Black.swift */; };
+		E6311E652317C916003D73BD /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E642317C916003D73BD /* Red.swift */; };
+		E6311E672317C935003D73BD /* Yellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E662317C935003D73BD /* Yellow.swift */; };
+		E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67297BC2318CCA300795630 /* MazadaDetailController.swift */; };
+		E683F8A523185E0C00E31961 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A423185E0C00E31961 /* Version.swift */; };
+		E683F8A723185EBD00E31961 /* Version15.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A623185EBD00E31961 /* Version15.swift */; };
+		E683F8A923185F3C00E31961 /* Version20.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A823185F3C00E31961 /* Version20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,18 +31,15 @@
 		E62DD9BE2316DC3400150A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62DD9C12316DC3400150A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62DD9C32316DC3400150A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E62DD9CA2316E26600150A93 /* RebberDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebberDuck.swift; sourceTree = "<group>"; };
-		E62DD9CB2316E26600150A93 /* JP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JP.swift; sourceTree = "<group>"; };
-		E62DD9CC2316E26600150A93 /* RobotDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotDuck.swift; sourceTree = "<group>"; };
-		E62DD9CD2316E26600150A93 /* Duck1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck1.swift; sourceTree = "<group>"; };
-		E62DD9CE2316E26600150A93 /* Mallrad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mallrad.swift; sourceTree = "<group>"; };
-		E62DD9CF2316E26600150A93 /* VN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VN.swift; sourceTree = "<group>"; };
-		E62DD9D02316E26600150A93 /* EN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EN.swift; sourceTree = "<group>"; };
-		E62DD9D12316E26700150A93 /* Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
-		E62DD9DA2316E2BA00150A93 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
-		E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeActivity.swift; sourceTree = "<group>"; };
-		E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeAct.swift; sourceTree = "<group>"; };
-		E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanMakeFly.swift; sourceTree = "<group>"; };
+		E6311E5E2317C7E6003D73BD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E6311E602317C84C003D73BD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E6311E622317C8A3003D73BD /* Black.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black.swift; sourceTree = "<group>"; };
+		E6311E642317C916003D73BD /* Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
+		E6311E662317C935003D73BD /* Yellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yellow.swift; sourceTree = "<group>"; };
+		E67297BC2318CCA300795630 /* MazadaDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadaDetailController.swift; sourceTree = "<group>"; };
+		E683F8A423185E0C00E31961 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		E683F8A623185EBD00E31961 /* Version15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version15.swift; sourceTree = "<group>"; };
+		E683F8A823185F3C00E31961 /* Version20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +74,7 @@
 			children = (
 				E62DD9C92316E1D600150A93 /* Models */,
 				E62DD9B72316DC3300150A93 /* AppDelegate.swift */,
+				E67297BC2318CCA300795630 /* MazadaDetailController.swift */,
 				E62DD9B92316DC3300150A93 /* ViewController.swift */,
 				E62DD9BB2316DC3300150A93 /* Main.storyboard */,
 				E62DD9BE2316DC3400150A93 /* Assets.xcassets */,
@@ -92,18 +87,14 @@
 		E62DD9C92316E1D600150A93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E62DD9DD2316E2D800150A93 /* CanMakeAct.swift */,
-				E62DD9DC2316E2D700150A93 /* CanMakeActivity.swift */,
-				E62DD9DE2316E2D800150A93 /* CanMakeFly.swift */,
-				E62DD9DA2316E2BA00150A93 /* Duck.swift */,
-				E62DD9CD2316E26600150A93 /* Duck1.swift */,
-				E62DD9D02316E26600150A93 /* EN.swift */,
-				E62DD9CB2316E26600150A93 /* JP.swift */,
-				E62DD9CE2316E26600150A93 /* Mallrad.swift */,
-				E62DD9D12316E26700150A93 /* Mode.swift */,
-				E62DD9CA2316E26600150A93 /* RebberDuck.swift */,
-				E62DD9CC2316E26600150A93 /* RobotDuck.swift */,
-				E62DD9CF2316E26600150A93 /* VN.swift */,
+				E6311E5E2317C7E6003D73BD /* Car.swift */,
+				E6311E602317C84C003D73BD /* Color.swift */,
+				E6311E622317C8A3003D73BD /* Black.swift */,
+				E6311E642317C916003D73BD /* Red.swift */,
+				E6311E662317C935003D73BD /* Yellow.swift */,
+				E683F8A423185E0C00E31961 /* Version.swift */,
+				E683F8A823185F3C00E31961 /* Version20.swift */,
+				E683F8A623185EBD00E31961 /* Version15.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,20 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62DD9DB2316E2BA00150A93 /* Duck.swift in Sources */,
-				E62DD9D52316E26700150A93 /* Duck1.swift in Sources */,
-				E62DD9E02316E2D800150A93 /* CanMakeAct.swift in Sources */,
-				E62DD9D62316E26700150A93 /* Mallrad.swift in Sources */,
-				E62DD9D82316E26700150A93 /* EN.swift in Sources */,
+				E6311E632317C8A3003D73BD /* Black.swift in Sources */,
 				E62DD9BA2316DC3300150A93 /* ViewController.swift in Sources */,
-				E62DD9DF2316E2D800150A93 /* CanMakeActivity.swift in Sources */,
-				E62DD9D32316E26700150A93 /* JP.swift in Sources */,
+				E683F8A923185F3C00E31961 /* Version20.swift in Sources */,
+				E6311E612317C84C003D73BD /* Color.swift in Sources */,
+				E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */,
 				E62DD9B82316DC3300150A93 /* AppDelegate.swift in Sources */,
-				E62DD9D92316E26700150A93 /* Mode.swift in Sources */,
-				E62DD9E12316E2D800150A93 /* CanMakeFly.swift in Sources */,
-				E62DD9D22316E26700150A93 /* RebberDuck.swift in Sources */,
-				E62DD9D42316E26700150A93 /* RobotDuck.swift in Sources */,
-				E62DD9D72316E26700150A93 /* VN.swift in Sources */,
+				E683F8A723185EBD00E31961 /* Version15.swift in Sources */,
+				E6311E5F2317C7E6003D73BD /* Car.swift in Sources */,
+				E6311E652317C916003D73BD /* Red.swift in Sources */,
+				E683F8A523185E0C00E31961 /* Version.swift in Sources */,
+				E6311E672317C935003D73BD /* Yellow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

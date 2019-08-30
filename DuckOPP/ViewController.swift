@@ -10,44 +10,52 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var lblQuack: UILabel!
+    var car = Car(brand: "Mazada 3", speed: 120, price: 800)
+
     
-    let mallrad = Mallrad()
-    let robot = RobotDuck()
+    @IBOutlet weak var lblPrice: UILabel!
     
-    
-    @IBAction func btnQuack(_ sender: Any) {
-        lblQuack.text = mallrad.quack()
+    @IBAction func btnBlack(_ sender: Any) {
+        car.selectBlack()
     }
     
-    
-    @IBOutlet weak var lblQuackRobot: UILabel!
-    
-    
-    @IBAction func btnQuackRobot(_ sender: Any) {
-        lblQuackRobot.text = robot.quack()
+    @IBAction func btnRed(_ sender: Any) {
+        car.selectRed()
+    }
+    @IBAction func btnYellow(_ sender: Any) {
+        car.selectYellow()
+    }
+    @IBAction func btn15(_ sender: Any) {
+        car.selectVersion15()
+        lblPrice.text = car.getPrice()
     }
     
-    
-    @IBAction func btnVN(_ sender: Any) {
-        robot.selectVN()
+    @IBAction func btn20(_ sender: Any) {
+        lblPrice.text = car.getPrice()
+        car.selectVersion20()
     }
-    
-    
-    @IBAction func btnEN(_ sender: Any) {
-        robot.selectEN()
+    @IBAction func btn0k(_ sender: Any) {
+        print("\(car.getColor())")
+        print("\(car.getSpeedEco())")
+        print("\(car.getSpeedSport())")
+        print("\(car.getPrice())")
+        print("\(car.getVersion())")
+        
     }
-    
-    @IBAction func btnJP(_ sender: Any) {
-        robot.selectJP()
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let mazadaDetail = segue.destination as? MazadaDetailController else {return}
+        mazadaDetail.price = car.getPrice()
+        mazadaDetail.color = car.getColor()
+        mazadaDetail.version = car.getVersion()
+        mazadaDetail.speedEco = car.getSpeedEco()
+        mazadaDetail.speedSport = car.getSpeedSport()
+        
+    }
 
 }
 
