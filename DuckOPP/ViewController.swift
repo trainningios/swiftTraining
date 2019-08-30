@@ -31,8 +31,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btn20(_ sender: Any) {
-        lblPrice.text = car.getPrice()
         car.selectVersion20()
+        lblPrice.text = car.getPrice()
     }
     @IBAction func btn0k(_ sender: Any) {
         print("\(car.getColor())")
