@@ -13,14 +13,8 @@
 		E62DD9BF2316DC3400150A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BE2316DC3400150A93 /* Assets.xcassets */; };
 		E62DD9C22316DC3400150A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9C02316DC3400150A93 /* LaunchScreen.storyboard */; };
 		E6311E5F2317C7E6003D73BD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E5E2317C7E6003D73BD /* Car.swift */; };
-		E6311E612317C84C003D73BD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E602317C84C003D73BD /* Color.swift */; };
-		E6311E632317C8A3003D73BD /* Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E622317C8A3003D73BD /* Black.swift */; };
-		E6311E652317C916003D73BD /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E642317C916003D73BD /* Red.swift */; };
-		E6311E672317C935003D73BD /* Yellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E662317C935003D73BD /* Yellow.swift */; };
 		E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67297BC2318CCA300795630 /* MazadaDetailController.swift */; };
 		E683F8A523185E0C00E31961 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A423185E0C00E31961 /* Version.swift */; };
-		E683F8A723185EBD00E31961 /* Version15.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A623185EBD00E31961 /* Version15.swift */; };
-		E683F8A923185F3C00E31961 /* Version20.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A823185F3C00E31961 /* Version20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +26,8 @@
 		E62DD9C12316DC3400150A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62DD9C32316DC3400150A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6311E5E2317C7E6003D73BD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		E6311E602317C84C003D73BD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		E6311E622317C8A3003D73BD /* Black.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black.swift; sourceTree = "<group>"; };
-		E6311E642317C916003D73BD /* Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
-		E6311E662317C935003D73BD /* Yellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yellow.swift; sourceTree = "<group>"; };
 		E67297BC2318CCA300795630 /* MazadaDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadaDetailController.swift; sourceTree = "<group>"; };
 		E683F8A423185E0C00E31961 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
-		E683F8A623185EBD00E31961 /* Version15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version15.swift; sourceTree = "<group>"; };
-		E683F8A823185F3C00E31961 /* Version20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E6311E5E2317C7E6003D73BD /* Car.swift */,
-				E6311E602317C84C003D73BD /* Color.swift */,
-				E6311E622317C8A3003D73BD /* Black.swift */,
-				E6311E642317C916003D73BD /* Red.swift */,
-				E6311E662317C935003D73BD /* Yellow.swift */,
 				E683F8A423185E0C00E31961 /* Version.swift */,
-				E683F8A823185F3C00E31961 /* Version20.swift */,
-				E683F8A623185EBD00E31961 /* Version15.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,17 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6311E632317C8A3003D73BD /* Black.swift in Sources */,
 				E62DD9BA2316DC3300150A93 /* ViewController.swift in Sources */,
-				E683F8A923185F3C00E31961 /* Version20.swift in Sources */,
-				E6311E612317C84C003D73BD /* Color.swift in Sources */,
 				E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */,
 				E62DD9B82316DC3300150A93 /* AppDelegate.swift in Sources */,
-				E683F8A723185EBD00E31961 /* Version15.swift in Sources */,
 				E6311E5F2317C7E6003D73BD /* Car.swift in Sources */,
-				E6311E652317C916003D73BD /* Red.swift in Sources */,
 				E683F8A523185E0C00E31961 /* Version.swift in Sources */,
-				E6311E672317C935003D73BD /* Yellow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

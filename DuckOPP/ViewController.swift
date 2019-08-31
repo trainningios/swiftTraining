@@ -10,51 +10,50 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var car = Car(brand: "Mazada 3", speed: 120, price: 800)
+    var car = Car()
 
     
     @IBOutlet weak var lblPrice: UILabel!
     
     @IBAction func btnBlack(_ sender: Any) {
-        car.selectBlack()
+        car.setColor(color: UIColor.black)
     }
     
     @IBAction func btnRed(_ sender: Any) {
-        car.selectRed()
+        car.setColor(color: UIColor.red)
     }
     @IBAction func btnYellow(_ sender: Any) {
-        car.selectYellow()
+        car.setColor(color: UIColor.yellow)
     }
     @IBAction func btn15(_ sender: Any) {
-        car.selectVersion15()
+        car.setVersion15()
         lblPrice.text = car.getPrice()
     }
     
     @IBAction func btn20(_ sender: Any) {
-        car.selectVersion20()
+        car.setVersion20()
         lblPrice.text = car.getPrice()
     }
     @IBAction func btn0k(_ sender: Any) {
-        print("\(car.getColor())")
+        print("\(car.getName())")
         print("\(car.getSpeedEco())")
         print("\(car.getSpeedSport())")
         print("\(car.getPrice())")
-        print("\(car.getVersion())")
+        print("\(car.getVersionName())")
+        
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        car.setVersion15()
+        car.setColor(color: UIColor.black)
+        lblPrice.text = car.getPrice()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let mazadaDetail = segue.destination as? MazadaDetailController else {return}
-        mazadaDetail.price = car.getPrice()
-        mazadaDetail.color = car.getColor()
-        mazadaDetail.version = car.getVersion()
-        mazadaDetail.speedEco = car.getSpeedEco()
-        mazadaDetail.speedSport = car.getSpeedSport()
-        
+        mazadaDetail.car = car
     }
 
 }

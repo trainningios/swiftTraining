@@ -8,26 +8,37 @@
 
 import Foundation
 class Version: NSObject{
-    var price: Int
-    var speed: Int
-    init(price: Int, speed: Int) {
-        self.price = price
-        self.speed = speed
+    static var name: String?
+    static var price: Int!
+    static var speed: Int!
+    
+    
+    static func initVersion15(){
+        name = "1.5"
+        price = 800
+        speed = 120
+        
+    }
+    
+    static func initVersion20(){
+        name = "2.0"
+        price = 850
+        speed = 150
     }
     
     func getPrice() -> Int{
-        return price
+        return Version.price
     }
     
-    func getEco() -> Int{
-        return speed
+    func getSpeedEco() -> Int{
+        return Version.speed
     }
     
-    func getSport() -> Int{
-        return speed + 30
+    func getSpeedSport() -> Int{
+        return Version.speed + 30
     }
     
     func getVersionName() -> String{
-        return "1.5"
+        return Version.name ?? ""
     }
 }
