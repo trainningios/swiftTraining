@@ -9,29 +9,34 @@
 import Foundation
 import UIKit
 class Car: NSObject{
-    var name: String?
-    var color: UIColor!
-    var version: Version?
+    private (set) var name: String?
+    private (set) var version: Version!
     
     override init() {
         name = "Mazada 3"
         version = Version()
     }
-    
-    func setColor(color: UIColor){
-        self.color = color
-    }
-    
-    func getColor() -> UIColor{
-        return color
-    }
-    
+
     func setVersion15(){
-        Version.initVersion15()
+        version = Version15()
     }
     func setVersion20(){
-        Version.initVersion20()
+        version = Version20()
     }
+    
+    func setColorBack(){
+        version.setColorBlack()
+    }
+    
+    func setColorRed(){
+        version.setColorRed()
+    }
+    
+    func setColorYellow(){
+        version.setColorYellow()
+    }
+    
+    
     
     func getPrice() -> String{
         return "Price: \(version?.getPrice() ?? 0) VND"
@@ -41,17 +46,16 @@ class Car: NSObject{
     }
     
     
+    func getColor() -> UIColor{
+        return version.getColor()
+    }
+    
+    
     func getVersionName() -> String{
-        return "Version: \(version?.getVersionName() ?? "")"
+        return "Version: \(version?.getName() ?? "")"
     }
     
-    func getSpeedEco() -> String{
-        return "Speed Eco: \(version?.getSpeedEco() ?? 0) Km/h"
-    }
     
-    func getSpeedSport() -> String{
-        return "Speed Sport: \(version?.getSpeedSport() ?? 0) Km/h"
-    }
 }
 
 

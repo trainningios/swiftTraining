@@ -7,38 +7,58 @@
 //
 
 import Foundation
+import UIKit
 class Version: NSObject{
-    static var name: String?
-    static var price: Int!
-    static var speed: Int!
+   
+     private var name: String?
+     private var price: Int!
+     private var speed: Int!
+     private var color: UIColor!
     
-    
-    static func initVersion15(){
-        name = "1.5"
-        price = 800
-        speed = 120
-        
+    public func setName(name: String){
+        self.name = name
     }
     
-    static func initVersion20(){
-        name = "2.0"
-        price = 850
-        speed = 150
+    public func getName() -> String{
+        return name!
     }
     
-    func getPrice() -> Int{
-        return Version.price
+    public func setSpeed(speed: Int){
+        self.speed = speed
     }
     
-    func getSpeedEco() -> Int{
-        return Version.speed
+    public func getSpeed() -> Int{
+        return speed
     }
     
-    func getSpeedSport() -> Int{
-        return Version.speed + 30
+    public func setColor(color: UIColor){
+        self.color = color
     }
     
-    func getVersionName() -> String{
-        return Version.name ?? ""
+    public func getColor() -> UIColor{
+        return color
     }
+    
+    public func setPrice(price: Int){
+        self.price = price
+    }
+    
+    public func getPrice() -> Int{
+        return price!
+    }
+    
+    
+    
+    func setColorBlack(){
+        color = UIColor.black
+    }
+    
+    func setColorRed(){
+        color = UIColor.red
+    }
+    
+    func setColorYellow(){
+        color = UIColor.yellow
+    }
+    
 }

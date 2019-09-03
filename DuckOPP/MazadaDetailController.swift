@@ -11,18 +11,15 @@ class MazadaDetailController: UIViewController {
     
     @IBOutlet weak var lblVersion: UILabel!
     @IBOutlet weak var lblPriceDetail: UILabel!
-    
-    @IBOutlet weak var lblEco: UILabel!
-    @IBOutlet weak var lblSport: UILabel!
-    
+        
+    @IBOutlet weak var lblTittle: UINavigationItem!
     var car: Car!
-    
     
     override func viewDidLoad() {
         lblVersion.backgroundColor = car.getColor()
         lblPriceDetail.text = car.getPrice()
         lblVersion.text = car.getVersionName()
-        lblEco.text = car.getSpeedEco()
-        lblSport.text = car.getSpeedSport()
+    
+        lblTittle.title =  car.getName() + " - " + car.getVersionName()
     }
 }

@@ -2,24 +2,33 @@
 //  Version15.swift
 //  DuckOPP
 //
-//  Created by Tơn on 8/30/19.
+//  Created by Tơn on 8/31/19.
 //  Copyright © 2019 Tơn. All rights reserved.
 //
 
 import Foundation
-class Version15: Version {
-    override func getPrice() -> Int {
-        return price
+import UIKit
+class Version15: Version{
+    
+    override init() {
+        super.init()
+        setName(name: "1.5")
+        setSpeed(speed: 120)
     }
     
-    override func getEco() -> Int {
-        return speed
+    override func setColorBlack() {
+        setPrice(price: 800)
+        setColor(color: UIColor.black)
     }
     
-    override func getSport() -> Int {
-        return speed + 30
+    override func setColorRed() {
+        setPrice(price: 850)
+        setColor(color: UIColor.red)
     }
-    override func getVersionName() -> String {
-        return "1.5"
+    
+    override func setColorYellow() {
+        setPrice(price: 870)
+        setColor(color: UIColor.yellow)
     }
+    
 }

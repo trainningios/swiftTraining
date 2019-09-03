@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E616C033231D14D400ACAEE0 /* Version20.swift in Sources */ = {isa = PBXBuildFile; fileRef = E616C032231D14D400ACAEE0 /* Version20.swift */; };
 		E62DD9B82316DC3300150A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9B72316DC3300150A93 /* AppDelegate.swift */; };
 		E62DD9BA2316DC3300150A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62DD9B92316DC3300150A93 /* ViewController.swift */; };
 		E62DD9BD2316DC3300150A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62DD9BB2316DC3300150A93 /* Main.storyboard */; };
@@ -15,9 +16,11 @@
 		E6311E5F2317C7E6003D73BD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6311E5E2317C7E6003D73BD /* Car.swift */; };
 		E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67297BC2318CCA300795630 /* MazadaDetailController.swift */; };
 		E683F8A523185E0C00E31961 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683F8A423185E0C00E31961 /* Version.swift */; };
+		E6AEB81D231A761B00732EED /* Version15.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AEB81C231A761B00732EED /* Version15.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E616C032231D14D400ACAEE0 /* Version20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version20.swift; sourceTree = "<group>"; };
 		E62DD9B42316DC3300150A93 /* DuckOPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckOPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62DD9B72316DC3300150A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62DD9B92316DC3300150A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		E6311E5E2317C7E6003D73BD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		E67297BC2318CCA300795630 /* MazadaDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadaDetailController.swift; sourceTree = "<group>"; };
 		E683F8A423185E0C00E31961 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		E6AEB81C231A761B00732EED /* Version15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				E6311E5E2317C7E6003D73BD /* Car.swift */,
 				E683F8A423185E0C00E31961 /* Version.swift */,
+				E6AEB81C231A761B00732EED /* Version15.swift */,
+				E616C032231D14D400ACAEE0 /* Version20.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62DD9BA2316DC3300150A93 /* ViewController.swift in Sources */,
+				E616C033231D14D400ACAEE0 /* Version20.swift in Sources */,
 				E67297BD2318CCA300795630 /* MazadaDetailController.swift in Sources */,
 				E62DD9B82316DC3300150A93 /* AppDelegate.swift in Sources */,
 				E6311E5F2317C7E6003D73BD /* Car.swift in Sources */,
+				E6AEB81D231A761B00732EED /* Version15.swift in Sources */,
 				E683F8A523185E0C00E31961 /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,33 +11,28 @@ import UIKit
 class ViewController: UIViewController {
     
     var car = Car()
-
-    
-    @IBOutlet weak var lblPrice: UILabel!
     
     @IBAction func btnBlack(_ sender: Any) {
-        car.setColor(color: UIColor.black)
+        car.setColorBack()
     }
     
     @IBAction func btnRed(_ sender: Any) {
-        car.setColor(color: UIColor.red)
+        car.setColorRed()
     }
     @IBAction func btnYellow(_ sender: Any) {
-        car.setColor(color: UIColor.yellow)
+       car.setColorYellow()
     }
     @IBAction func btn15(_ sender: Any) {
         car.setVersion15()
-        lblPrice.text = car.getPrice()
+        car.setColorBack()
     }
     
     @IBAction func btn20(_ sender: Any) {
         car.setVersion20()
-        lblPrice.text = car.getPrice()
+        car.setColorBack()
     }
     @IBAction func btn0k(_ sender: Any) {
         print("\(car.getName())")
-        print("\(car.getSpeedEco())")
-        print("\(car.getSpeedSport())")
         print("\(car.getPrice())")
         print("\(car.getVersionName())")
         
@@ -47,8 +42,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         car.setVersion15()
-        car.setColor(color: UIColor.black)
-        lblPrice.text = car.getPrice()
+        car.setColorBack()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
