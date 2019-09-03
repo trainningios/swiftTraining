@@ -6,13 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E653B44F2312E7810091898D /* PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B44E2312E7810091898D /* PM.swift */; };
-		E653B4512312E7BF0091898D /* DEV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4502312E7BF0091898D /* DEV.swift */; };
-		E653B4532312E7EB0091898D /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4522312E7EB0091898D /* Persion.swift */; };
-		E65CB9DE230FA5D60061878F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65CB9DD230FA5D60061878F /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		E65CB9D8230FA5D60061878F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,11 +19,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E653B44E2312E7810091898D /* PM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM.swift; sourceTree = "<group>"; };
-		E653B4502312E7BF0091898D /* DEV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEV.swift; sourceTree = "<group>"; };
-		E653B4522312E7EB0091898D /* Persion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
+		DFC5762A231E822000FC9275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFC5762B231E822000FC9275 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		DFC5762C231E822000FC9275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFC5762E231E822000FC9275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFC57630231E822000FC9275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFC57631231E822000FC9275 /* Mazda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
+		DFC57632231E822000FC9275 /* CardetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardetailController.swift; sourceTree = "<group>"; };
+		DFC57633231E822000FC9275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFC57634231E822000FC9275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E65CB9DA230FA5D60061878F /* OPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		E65CB9DD230FA5D60061878F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +42,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFC57629231E822000FC9275 /* car */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5762A231E822000FC9275 /* ViewController.swift */,
+				DFC5762B231E822000FC9275 /* Version.swift */,
+				DFC5762C231E822000FC9275 /* Assets.xcassets */,
+				DFC5762D231E822000FC9275 /* LaunchScreen.storyboard */,
+				DFC5762F231E822000FC9275 /* Main.storyboard */,
+				DFC57631231E822000FC9275 /* Mazda.swift */,
+				DFC57632231E822000FC9275 /* CardetailController.swift */,
+				DFC57633231E822000FC9275 /* AppDelegate.swift */,
+				DFC57634231E822000FC9275 /* Info.plist */,
+			);
+			name = car;
+			path = "../../../car 2/car";
+			sourceTree = "<group>";
+		};
 		E65CB9D1230FA5D60061878F = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +78,7 @@
 		E65CB9DC230FA5D60061878F /* OPP */ = {
 			isa = PBXGroup;
 			children = (
-				E65CB9DD230FA5D60061878F /* main.swift */,
-				E653B44E2312E7810091898D /* PM.swift */,
-				E653B4502312E7BF0091898D /* DEV.swift */,
-				E653B4522312E7EB0091898D /* Persion.swift */,
+				DFC57629231E822000FC9275 /* car */,
 			);
 			path = OPP;
 			sourceTree = "<group>";
@@ -103,6 +115,7 @@
 				TargetAttributes = {
 					E65CB9D9230FA5D60061878F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -112,6 +125,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E65CB9D1230FA5D60061878F;
 			productRefGroup = E65CB9DB230FA5D60061878F /* Products */;
@@ -128,14 +142,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E653B4532312E7EB0091898D /* Persion.swift in Sources */,
-				E653B4512312E7BF0091898D /* DEV.swift in Sources */,
-				E653B44F2312E7810091898D /* PM.swift in Sources */,
-				E65CB9DE230FA5D60061878F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFC5762D231E822000FC9275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC5762E231E822000FC9275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFC5762F231E822000FC9275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC57630231E822000FC9275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E65CB9DF230FA5D60061878F /* Debug */ = {
@@ -256,8 +285,16 @@
 		E65CB9E2230FA5D60061878F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OPP/OPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -265,8 +302,15 @@
 		E65CB9E3230FA5D60061878F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OPP/OPP-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
