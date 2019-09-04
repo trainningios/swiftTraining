@@ -6,16 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		DF003016231F61890078E83B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF003012231F61890078E83B /* car.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DF961ADD231B6B8A000EF886;
-			remoteInfo = car;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		E65CB9D8230FA5D60061878F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -29,16 +19,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF003007231F61890078E83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF003008231F61890078E83B /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
-		DF003009231F61890078E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF00300B231F61890078E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF00300D231F61890078E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF00300E231F61890078E83B /* Mazda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
-		DF00300F231F61890078E83B /* CardetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardetailController.swift; sourceTree = "<group>"; };
-		DF003010231F61890078E83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF003011231F61890078E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF003012231F61890078E83B /* car.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = car.xcodeproj; sourceTree = "<group>"; };
 		E65CB9DA230FA5D60061878F /* OPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPP; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,40 +33,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF003005231F61890078E83B /* car */ = {
-			isa = PBXGroup;
-			children = (
-				DF003006231F61890078E83B /* car */,
-				DF003012231F61890078E83B /* car.xcodeproj */,
-			);
-			name = car;
-			path = ../../../../Downloads/car;
-			sourceTree = "<group>";
-		};
-		DF003006231F61890078E83B /* car */ = {
-			isa = PBXGroup;
-			children = (
-				DF003007231F61890078E83B /* ViewController.swift */,
-				DF003008231F61890078E83B /* Version.swift */,
-				DF003009231F61890078E83B /* Assets.xcassets */,
-				DF00300A231F61890078E83B /* LaunchScreen.storyboard */,
-				DF00300C231F61890078E83B /* Main.storyboard */,
-				DF00300E231F61890078E83B /* Mazda.swift */,
-				DF00300F231F61890078E83B /* CardetailController.swift */,
-				DF003010231F61890078E83B /* AppDelegate.swift */,
-				DF003011231F61890078E83B /* Info.plist */,
-			);
-			path = car;
-			sourceTree = "<group>";
-		};
-		DF003013231F61890078E83B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DF003017231F61890078E83B /* car.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E65CB9D1230FA5D60061878F = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +52,6 @@
 		E65CB9DC230FA5D60061878F /* OPP */ = {
 			isa = PBXGroup;
 			children = (
-				DF003005231F61890078E83B /* car */,
 			);
 			path = OPP;
 			sourceTree = "<group>";
@@ -158,28 +103,12 @@
 			mainGroup = E65CB9D1230FA5D60061878F;
 			productRefGroup = E65CB9DB230FA5D60061878F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DF003013231F61890078E83B /* Products */;
-					ProjectRef = DF003012231F61890078E83B /* car.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E65CB9D9230FA5D60061878F /* OPP */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DF003017231F61890078E83B /* car.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = car.app;
-			remoteRef = DF003016231F61890078E83B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E65CB9D6230FA5D60061878F /* Sources */ = {
@@ -190,25 +119,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DF00300A231F61890078E83B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF00300B231F61890078E83B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DF00300C231F61890078E83B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF00300D231F61890078E83B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E65CB9DF230FA5D60061878F /* Debug */ = {
