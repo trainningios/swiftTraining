@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF003052231F72200078E83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003051231F72200078E83B /* ViewController.swift */; };
+		DF003054231F72250078E83B /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003053231F72250078E83B /* Version.swift */; };
+		DF003056231F722A0078E83B /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003055231F72290078E83B /* Mazda.swift */; };
+		DF003058231F722C0078E83B /* CardetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003057231F722C0078E83B /* CardetailController.swift */; };
 		E653B44F2312E7810091898D /* PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B44E2312E7810091898D /* PM.swift */; };
 		E653B4512312E7BF0091898D /* DEV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4502312E7BF0091898D /* DEV.swift */; };
 		E653B4532312E7EB0091898D /* Persion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E653B4522312E7EB0091898D /* Persion.swift */; };
@@ -26,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF003051231F72200078E83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF003053231F72250078E83B /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		DF003055231F72290078E83B /* Mazda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
+		DF003057231F722C0078E83B /* CardetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardetailController.swift; sourceTree = "<group>"; };
 		E653B44E2312E7810091898D /* PM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM.swift; sourceTree = "<group>"; };
 		E653B4502312E7BF0091898D /* DEV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEV.swift; sourceTree = "<group>"; };
 		E653B4522312E7EB0091898D /* Persion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persion.swift; sourceTree = "<group>"; };
@@ -67,6 +75,10 @@
 				E653B44E2312E7810091898D /* PM.swift */,
 				E653B4502312E7BF0091898D /* DEV.swift */,
 				E653B4522312E7EB0091898D /* Persion.swift */,
+				DF003051231F72200078E83B /* ViewController.swift */,
+				DF003053231F72250078E83B /* Version.swift */,
+				DF003055231F72290078E83B /* Mazda.swift */,
+				DF003057231F722C0078E83B /* CardetailController.swift */,
 			);
 			path = OPP;
 			sourceTree = "<group>";
@@ -112,6 +124,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E65CB9D1230FA5D60061878F;
 			productRefGroup = E65CB9DB230FA5D60061878F /* Products */;
@@ -128,9 +141,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF003052231F72200078E83B /* ViewController.swift in Sources */,
+				DF003058231F722C0078E83B /* CardetailController.swift in Sources */,
+				DF003056231F722A0078E83B /* Mazda.swift in Sources */,
 				E653B4532312E7EB0091898D /* Persion.swift in Sources */,
 				E653B4512312E7BF0091898D /* DEV.swift in Sources */,
 				E653B44F2312E7810091898D /* PM.swift in Sources */,
+				DF003054231F72250078E83B /* Version.swift in Sources */,
 				E65CB9DE230FA5D60061878F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
