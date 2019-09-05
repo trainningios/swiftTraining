@@ -22,6 +22,21 @@
 		DF1280DB2320A7E30003F634 /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280C52320A7E30003F634 /* Mazda.swift */; };
 		DF1280DC2320A7E30003F634 /* CardetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280C62320A7E30003F634 /* CardetailController.swift */; };
 		DF1280DD2320A7E30003F634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280C72320A7E30003F634 /* AppDelegate.swift */; };
+		DF1280FD2320B2710003F634 /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280DE2320B2700003F634 /* Mazda.swift */; };
+		DF1280FE2320B2710003F634 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280DF2320B2700003F634 /* Version.swift */; };
+		DF1280FF2320B2710003F634 /* CardetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280E02320B2710003F634 /* CardetailController.swift */; };
+		DF1281002320B2710003F634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280E22320B2710003F634 /* ViewController.swift */; };
+		DF1281012320B2710003F634 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280E32320B2710003F634 /* Version.swift */; };
+		DF1281022320B2710003F634 /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280E92320B2710003F634 /* Mazda.swift */; };
+		DF1281032320B2710003F634 /* CardetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280EA2320B2710003F634 /* CardetailController.swift */; };
+		DF1281042320B2710003F634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280EB2320B2710003F634 /* AppDelegate.swift */; };
+		DF1281052320B2710003F634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280EE2320B2710003F634 /* AppDelegate.swift */; };
+		DF1281062320B2710003F634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280EF2320B2710003F634 /* ViewController.swift */; };
+		DF1281072320B2710003F634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280F22320B2710003F634 /* ViewController.swift */; };
+		DF1281082320B2710003F634 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280F32320B2710003F634 /* Version.swift */; };
+		DF1281092320B2710003F634 /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280F92320B2710003F634 /* Mazda.swift */; };
+		DF12810A2320B2710003F634 /* CardetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280FA2320B2710003F634 /* CardetailController.swift */; };
+		DF12810B2320B2710003F634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1280FB2320B2710003F634 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +94,31 @@
 		DF1280C72320A7E30003F634 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF1280C82320A7E30003F634 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF1280C92320A7E30003F634 /* car.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = car.xcodeproj; sourceTree = "<group>"; };
+		DF1280DE2320B2700003F634 /* Mazda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mazda.swift; path = ../../../../../Downloads/car/car/Mazda.swift; sourceTree = "<group>"; };
+		DF1280DF2320B2700003F634 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Version.swift; path = ../../../../../Downloads/car/car/Version.swift; sourceTree = "<group>"; };
+		DF1280E02320B2710003F634 /* CardetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardetailController.swift; path = ../../../../../Downloads/car/car/CardetailController.swift; sourceTree = "<group>"; };
+		DF1280E22320B2710003F634 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF1280E32320B2710003F634 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		DF1280E42320B2710003F634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1280E62320B2710003F634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1280E82320B2710003F634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1280E92320B2710003F634 /* Mazda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
+		DF1280EA2320B2710003F634 /* CardetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardetailController.swift; sourceTree = "<group>"; };
+		DF1280EB2320B2710003F634 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF1280EC2320B2710003F634 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1280ED2320B2710003F634 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../../Downloads/car/car/Info.plist; sourceTree = "<group>"; };
+		DF1280EE2320B2710003F634 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../Downloads/car/car/AppDelegate.swift; sourceTree = "<group>"; };
+		DF1280EF2320B2710003F634 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../Downloads/car/car/ViewController.swift; sourceTree = "<group>"; };
+		DF1280F02320B2710003F634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/car/car/Assets.xcassets; sourceTree = "<group>"; };
+		DF1280F22320B2710003F634 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF1280F32320B2710003F634 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		DF1280F42320B2710003F634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1280F62320B2710003F634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1280F82320B2710003F634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1280F92320B2710003F634 /* Mazda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
+		DF1280FA2320B2710003F634 /* CardetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardetailController.swift; sourceTree = "<group>"; };
+		DF1280FB2320B2710003F634 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF1280FC2320B2710003F634 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E65CB9DA230FA5D60061878F /* OPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPP; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,7 +169,16 @@
 		DF1280BC2320A7E30003F634 /* car */ = {
 			isa = PBXGroup;
 			children = (
+				DF1280DE2320B2700003F634 /* Mazda.swift */,
+				DF1280DF2320B2700003F634 /* Version.swift */,
+				DF1280EE2320B2710003F634 /* AppDelegate.swift */,
+				DF1280E02320B2710003F634 /* CardetailController.swift */,
+				DF1280EF2320B2710003F634 /* ViewController.swift */,
+				DF1280F02320B2710003F634 /* Assets.xcassets */,
+				DF1280ED2320B2710003F634 /* Info.plist */,
 				DF1280BD2320A7E30003F634 /* car */,
+				DF1280E12320B2710003F634 /* car */,
+				DF1280F12320B2710003F634 /* car */,
 				DF1280C92320A7E30003F634 /* car.xcodeproj */,
 			);
 			path = car;
@@ -157,6 +206,40 @@
 				DF1280CE2320A7E30003F634 /* car.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1280E12320B2710003F634 /* car */ = {
+			isa = PBXGroup;
+			children = (
+				DF1280E22320B2710003F634 /* ViewController.swift */,
+				DF1280E32320B2710003F634 /* Version.swift */,
+				DF1280E42320B2710003F634 /* Assets.xcassets */,
+				DF1280E52320B2710003F634 /* LaunchScreen.storyboard */,
+				DF1280E72320B2710003F634 /* Main.storyboard */,
+				DF1280E92320B2710003F634 /* Mazda.swift */,
+				DF1280EA2320B2710003F634 /* CardetailController.swift */,
+				DF1280EB2320B2710003F634 /* AppDelegate.swift */,
+				DF1280EC2320B2710003F634 /* Info.plist */,
+			);
+			name = car;
+			path = ../../../../../Downloads/car/car;
+			sourceTree = "<group>";
+		};
+		DF1280F12320B2710003F634 /* car */ = {
+			isa = PBXGroup;
+			children = (
+				DF1280F22320B2710003F634 /* ViewController.swift */,
+				DF1280F32320B2710003F634 /* Version.swift */,
+				DF1280F42320B2710003F634 /* Assets.xcassets */,
+				DF1280F52320B2710003F634 /* LaunchScreen.storyboard */,
+				DF1280F72320B2710003F634 /* Main.storyboard */,
+				DF1280F92320B2710003F634 /* Mazda.swift */,
+				DF1280FA2320B2710003F634 /* CardetailController.swift */,
+				DF1280FB2320B2710003F634 /* AppDelegate.swift */,
+				DF1280FC2320B2710003F634 /* Info.plist */,
+			);
+			name = car;
+			path = ../../../../../Downloads/car/car;
 			sourceTree = "<group>";
 		};
 		E65CB9D1230FA5D60061878F = {
@@ -275,21 +358,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1281062320B2710003F634 /* ViewController.swift in Sources */,
+				DF1281082320B2710003F634 /* Version.swift in Sources */,
+				DF12810A2320B2710003F634 /* CardetailController.swift in Sources */,
+				DF1281052320B2710003F634 /* AppDelegate.swift in Sources */,
 				DF1280D32320A7E30003F634 /* ViewController.swift in Sources */,
+				DF1281022320B2710003F634 /* Mazda.swift in Sources */,
+				DF1281002320B2710003F634 /* ViewController.swift in Sources */,
 				DF1280D62320A7E30003F634 /* CardetailController.swift in Sources */,
 				DF1280D52320A7E30003F634 /* Mazda.swift in Sources */,
+				DF1280FD2320B2710003F634 /* Mazda.swift in Sources */,
+				DF1281072320B2710003F634 /* ViewController.swift in Sources */,
 				DF1280DD2320A7E30003F634 /* AppDelegate.swift in Sources */,
+				DF1281012320B2710003F634 /* Version.swift in Sources */,
 				DF1280D72320A7E30003F634 /* AppDelegate.swift in Sources */,
 				DF1280D92320A7E30003F634 /* ViewController.swift in Sources */,
 				DF1280DB2320A7E30003F634 /* Mazda.swift in Sources */,
+				DF1281092320B2710003F634 /* Mazda.swift in Sources */,
+				DF1280FE2320B2710003F634 /* Version.swift in Sources */,
+				DF12810B2320B2710003F634 /* AppDelegate.swift in Sources */,
+				DF1280FF2320B2710003F634 /* CardetailController.swift in Sources */,
 				DF1280CF2320A7E30003F634 /* AppDelegate.swift in Sources */,
 				DF1280DC2320A7E30003F634 /* CardetailController.swift in Sources */,
 				DF1280D82320A7E30003F634 /* Mazda.swift in Sources */,
 				DF1280D12320A7E30003F634 /* Version.swift in Sources */,
 				DF1280D22320A7E30003F634 /* ViewController.swift in Sources */,
 				DF1280D42320A7E30003F634 /* Version.swift in Sources */,
+				DF1281032320B2710003F634 /* CardetailController.swift in Sources */,
 				DF1280DA2320A7E30003F634 /* Version.swift in Sources */,
 				DF1280D02320A7E30003F634 /* CardetailController.swift in Sources */,
+				DF1281042320B2710003F634 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +422,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF1280C42320A7E30003F634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1280E52320B2710003F634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1280E62320B2710003F634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1280E72320B2710003F634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1280E82320B2710003F634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1280F52320B2710003F634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1280F62320B2710003F634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1280F72320B2710003F634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1280F82320B2710003F634 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
