@@ -30,13 +30,7 @@ class Mazda: NSObject {
         Version.nameVersion20()
     }
     func getPrice() -> String{
-        return "PRICE BLACK: \(version?.getPrice() ?? 0)"
-    }
-    func getPriceColor() -> String{
-        return "PRICE RED: \(version?.getPriceColorRed() ?? 0)"
-    }
-    func getPriceColor1() -> String {
-        return "PRICE YELLOW: \(version?.getPriceColorYellow() ?? 0)"
+        return "PRICE: \(version?.getPrice() ?? 0)"
     }
     
     func getName() -> String{
@@ -45,7 +39,5 @@ class Mazda: NSObject {
     func getVersionName() -> String{
         return "Version: \(version?.getVersionName() ?? "")"
     }
-    
-    
 }
 
