@@ -46,12 +46,6 @@ class Mazda: NSObject {
         return "Version: \(version?.getVersionName() ?? "")"
     }
     
-    func getSpeedEco() -> String{
-        return "Speed: \(version?.getSpeedEco() ?? 0) Km/h"
-    }
     
-    func getSpeedSport() -> String{
-        return "Speed: \(version?.getSpeedSport() ?? 0) Km/h"
-    }
 }
 
