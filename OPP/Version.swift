@@ -28,14 +28,8 @@ class Version: NSObject{
     func getPrice() -> Int {
         return Version.price
     }
-    func getPriceColorRed() -> Int {
-        return Version.price - 80000000
-    }
-    
-    func getPriceColorYellow() -> Int {
-        return Version.price + 50000000
-    }
-    
+  
+   
     func getVersionName() -> String{
         return Version.name ?? ""
     }
