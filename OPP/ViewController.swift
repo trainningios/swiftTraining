@@ -36,8 +36,6 @@ class ViewController: UIViewController {
     
     @IBAction func lblOK(_ sender: Any) {
         print("\(mazda.getName())")
-        print("\(mazda.getSpeedEco())")
-        print("\(mazda.getSpeedSport())")
         print("\(mazda.getPrice())")
         print("\(mazda.getPriceColor())")
         print("\(mazda.getPriceColor1())")
